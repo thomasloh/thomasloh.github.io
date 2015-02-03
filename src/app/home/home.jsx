@@ -1,6 +1,6 @@
 // Import modules
-var React       = require('react/addons');
-var _ = require('lodash');
+var React   = require('react/addons');
+var _       = require('lodash');
 var drawing = require('common.drawing');
 
 // Import children components
@@ -19,12 +19,13 @@ var Home = React.createClass({
 
   componentDidUpdate: function(prevProps, prevState) {
 
+    drawing.splash(this.getDOMNode(), 90);
 
   },
 
   componentDidMount: function() {
 
-    this.particles = drawing.createParticles(this.getDOMNode(), 200);
+    drawing.splash(this.getDOMNode(), 90);
   },
 
   /**

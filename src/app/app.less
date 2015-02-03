@@ -4,4 +4,81 @@
   height: 100%;
   width: 100%;
 
+  .tag-line {
+
+    > div {
+      color: white;
+      position: absolute;
+      left: 50%;
+      width: 630px;
+      margin-left: -315px;
+      text-align: center;
+    }
+    .data, .arrow, .view {
+      // cursor: pointer;
+      display: inline-block;
+      font-size: 50px;
+      margin: 0 5px;
+      font-family: 'Gotham SSm A', 'Gotham SSm B';
+      font-weight: 400;
+      font-style: normal;
+    }
+    .data {
+
+    }
+    .arrow {
+
+    }
+    .view {
+
+    }
+
+    .first {
+      top: 20%;
+      h3 {
+        font-weight: 100;
+      }
+    }
+
+    .second {
+      top: 30%;
+    }
+
+    .third {
+      top: 40%;
+      h3 {
+        font-weight: 100;
+      }
+    }
+
+    .fourth {
+      top: 50%;
+      .data, .arrow, .view {
+        font-size: 30px;
+      }
+    }
+
+  }
+
+  .ss {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+    a {
+      font-size: 20px;
+      color: rgb(150, 150, 150);
+      text-decoration: none;
+      .transition("color 0.2s ease");
+      &.brand {
+        font-weight: 400;
+        margin-right: 34px;
+      }
+      &:hover {
+        color: white;
+      }
+      margin-left: 5px;
+    }
+  }
+
 }

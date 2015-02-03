@@ -54,8 +54,8 @@ function Particle(ctx, o, position) {
   this.opacity = opacity;
 
   /* animation - velocity for speed */
-  this.vx = -.1 + Math.random();
-  this.vy = -.1 + Math.random();
+  this.vx = -.5 + Math.random();
+  this.vy = -.5 + Math.random();
 
   /* draw function */
   this.draw = function() {
@@ -115,6 +115,18 @@ module.exports = {
     // Main
     launch();
     requestAnimationFrame(launch);
+
+    window.onresize = function(){
+
+        el.width = el.offsetWidth;
+        el.height = el.offsetHeight;
+
+        /* repaint canvas */
+        ctx.fillRect(0, 0, el.width, el.height);
+
+        launch()
+    }
+
 
   },
 

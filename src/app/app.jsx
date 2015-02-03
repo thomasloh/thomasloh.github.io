@@ -37,6 +37,9 @@ var App = React.createClass({
         <div className="tag-line">
 
           <div className="second">
+            <h2 className="love">
+              do
+            </h2>
             <span className="data">
               (data)
             </span>
@@ -48,6 +51,9 @@ var App = React.createClass({
 
 
           <div className="fourth">
+            <h2 className="love">
+              ♥
+            </h2>
             <h2 className="data">
               Clojure
             </h2>

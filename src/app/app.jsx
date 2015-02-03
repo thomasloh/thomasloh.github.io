@@ -38,7 +38,7 @@ var App = React.createClass({
 
           <div className="second">
             <h2 className="love">
-              do
+              build
             </h2>
             <span className="data">
               (data)

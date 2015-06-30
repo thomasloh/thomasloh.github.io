@@ -49,20 +49,6 @@ var App = React.createClass({
             </span>
           </div>
 
-
-          <div className="fourth">
-            <h2 className="love">
-              ♥
-            </h2>
-            <h2 className="data">
-              Clojure
-            </h2>
-            <h2 className="arrow">&</h2>
-            <h2 className="view">
-              React
-            </h2>
-          </div>
-
         </div>
 
         <div className="ss">

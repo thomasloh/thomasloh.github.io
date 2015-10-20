@@ -34,23 +34,6 @@ var App = React.createClass({
 
         <RouteHandler />
 
-        <div className="tag-line">
-
-          <div className="second">
-            <h2 className="love">
-              builds
-            </h2>
-            <span className="data">
-              (data)
-            </span>
-            <span className="arrow">»</span>
-            <span className="view">
-              (view)
-            </span>
-          </div>
-
-        </div>
-
         <div className="ss">
           <a className="ss-mail social" href="mailto:thomasloh.sf@gmail.com"></a>
           <a className="ss-linkedin social" href="https://www.linkedin.com/in/lohthomas" target="_blank"></a>

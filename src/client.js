@@ -35,9 +35,6 @@ var root = "/";
 
 var routes = (
   <Route path={ `${root}` } handler={ App }>
-
-    <DefaultRoute name="home" handler={ Home } />
-
   </Route>
 );
 

@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "semantic.min";
+
+// Application
+.ui.grid {
+  height: 100%;
+  margin: 60px auto 140px auto;
+}
+
+#mail-me {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  text-decoration: underline;
+}
